@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Gothic", sans-serif;
+}
+body {
+  width: 100vw;
+}
+
+img {
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  color: #adadad;
+}
+ul :first-child {
+  color: #00c3a5;
+}
+nav {
+  height: 64px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+h1 {
+  color: #00c3a5;
+  font-size: 30px;
+}
+
+.all-second {
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.monogramme {
+  height: 60px;
+}
+.all-third {
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: #74748a;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.all-four {
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.For-patients {
+  height: 280px;
+  width: 300px;
+  background-color: #00ccb1;
+  color: white;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.For-doctors {
+  height: 280px;
+  width: 300px;
+  background-color: #3d83df;
+  color: white;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-top: 25px;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.For-clinics {
+  height: 280px;
+  width: 300px;
+  background-color: #1b2734;
+  color: white;
+  border-radius: 10px;
+  padding-left: 25px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
